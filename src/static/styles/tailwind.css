@@ -1,0 +1,15 @@
+@tailwind base;
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+div[tabindex] {
+    height: 100%;
+}
+
+@tailwind components;
+
+@tailwind utilities;
